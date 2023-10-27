@@ -3,7 +3,7 @@ name: ForumSignin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 15 * * *'
+    - cron: '20 4 * * *'
 
 jobs:
   checkin:
